@@ -38,7 +38,7 @@ classdef DraggableKeypoint2DAnimator < Animator
     end
     
     properties (Access = public)
-        MarkerSize = 20;
+        MarkerSize = 12;
         DragPointColor = [1, 1, 1];
         LineWidth = 3;
         markers % x,y position of markers. SHAPE: (# frames, 2, # markers)
